@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kimono English Assistant</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="menu">
+
+    <div class="menu-inner">
+      <button class="menu-btn">着付けの流れ</button>
+      <button class="menu-btn">着物について</button>
+    </div>
+
+    <div class="menu-inner">
+      <button class="menu-btn" data-key="arrival">玄関</button>
+      <button class="menu-btn" data-key="kimono_selection">着物選び</button>
+      <button class="menu-btn" data-key="dressing">着付け</button>
+      <button class="menu-btn" data-key="hairstyle">ヘアセット</button>
+      <button class="menu-btn" data-key="before_going_out">送り出し</button>
+      <button class="menu-btn" data-key="payment">お会計</button>
+      <button class="menu-btn" data-key="returning">お戻り後</button>
+    </div>
+
+  </div>
+
+  <div id="list">デフォルトでは玄関が表示される</div>
+  <div id="display-area">選択したフレーズが大きく表示される
+    <!-- <div class="en">${item.en}</div>
+      <div class="ja">${item.ja}</div>
+      <div id="replay">もう一度再生</div> -->
+  </div>
+
+  <script>
+    // JSONファイルを読み込み、ボタンにイベントリスナーを追加
+    async function getData() {
+      const o_res = await fetch('conversation.json');
+      const o_conversation = await o_res.json();
+
+      // JSON取得後、arrivalカテゴリをデフォルトで表示
+      displayCategory(o_conversation["arrival"]);
+
+      //全てのボタンにイベントリスナーを追加
+      document.querySelectorAll('.menu-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const s_key = btn.dataset.key;
+          const r_data = o_conversation[s_key];
+          displayCategory(r_data); //画面表示
+        })
+      });
+    }
+
+    // リストを表示する
+    function displayCategory(r_data) {
+      const list = document.getElementById('list');
+      const display = document.getElementById('display-area');
+      list.innerHTML = ""; // 表示リセット
+      display.innerHTML = "";
+
+      r_data.forEach(item => {
+        const div = document.createElement('div');
+        div.classList.add('phrase');
+        div.textContent = item.ja;
+
+        div.addEventListener('click', () => {
+          display.innerHTML = `
+            <div class="en">${item.en}</div>
+            <div class="ja">${item.ja}</div>
+            <div id="replay">もう一度再生</div> 
+      `;
+          speakText(item.en);
+
+          document.getElementById('replay').addEventListener('click', () => {
+            speakText(item.en);
+          });
+        });
+        list.appendChild(div)
+      });
+    }
+
+    function speakText(text) {
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'en-US'
+      speechSynthesis.cancel(); //前の音声を停止
+      speechSynthesis.speak(utter);
+    }
+
+    getData();
+  </script>
+</body>
+
+</html>

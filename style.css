@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  background: linear-gradient(to bottom, #429cf7, #bfefff);
+  height: 100vh;
+}
+
+.menu {}
+
+.menu-inner {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.menu-btn {
+  background-color: rgb(243, 248, 255);
+  border: 1px solid rgba(0, 42, 255, 0.3);
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 42, 255, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.menu-btn:hover {
+  transform: scale(1.05);
+}
+
+#list {
+  text-align: center;
+  /* width: 1000px; */
+  margin: 0 auto;
+}
+
+#list .phrase {
+  display: inline-block;
+  background-color: rgb(243, 248, 255);
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px dashed rgba(0, 42, 255, 0.3);
+  box-shadow: 0px 5px 10px rgba(57, 67, 116, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+#list div:hover {
+  transform: scale(1.02);
+}
+
+#display-area {
+  margin-top: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+
+#display-area .en {
+  line-height: normal;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#display-area .ja {
+  font-size: 2rem;
+  color: #666;
+  padding: 50px;
+}
+
+#replay {
+  display: inline-block;
+  color: #383d6c;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #429cf7;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#replay:hover {
+  color: white;
+  background-color: #429cf7;
+  transition: all 0.2s ease;
+}
