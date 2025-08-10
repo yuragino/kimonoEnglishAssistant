@@ -1,0 +1,292 @@
+{
+  "arrival": [
+    {
+      "en": "Hi there! Welcome!",
+      "ja": "ようこそ、いらっしゃいませ！"
+    },
+    {
+      "en": "Thank you for coming.",
+      "ja": "ようこそいらっしゃいました。"
+    },
+    {
+      "en": "May I have your name, please?",
+      "ja": "お名前をうかがってもよろしいですか？"
+    },
+    {
+      "en": "Please take off your shoes here.",
+      "ja": "こちらでお履き物をお脱ぎになってください。"
+    },
+    {
+      "en": "This way, please.",
+      "ja": "こちらへどうぞ。"
+    },
+    {
+      "en": "Please come to this room.",
+      "ja": "こちらの部屋へどうぞ"
+    },
+    {
+      "en": "Please put your things in here.",
+      "ja": "ここに荷物を入れてください。"
+    }
+  ],
+  "kimono_selection": [
+    {
+      "en": "Please choose your favorite kimono from these.",
+      "ja": "この中からお好きな着物をお選びください。"
+    },
+    {
+      "en": "Which kimono do you prefer?",
+      "ja": "どの着物がいいですか？"
+    },
+    {
+      "en": "Have you decided?",
+      "ja": "決まりましたか？"
+    }
+  ],
+  "fitting": [
+    {
+      "en": "If you like some of the clothes, you can try them on.",
+      "ja": "何着か気に入ったら試着してみましょう。"
+    },
+    {
+      "en": "Would you like to try it on in front of the mirror?",
+      "ja": "鏡の前で羽織ってみますか？"
+    },
+    {
+      "en": "Let's try it on to see if the size fits.",
+      "ja": "サイズ確認のために羽織ってみましょう。"
+    },
+    {
+      "en": "You can try it on over your clothes.",
+      "ja": "洋服の上からで大丈夫です。"
+    },
+    {
+      "en": "In reality, you take off your clothes and put on a kimono.",
+      "ja": "実際は洋服を脱いで着物を着ますが。"
+    },
+    {
+      "en": "Does the size feel alright?",
+      "ja": "サイズは大丈夫ですか？"
+    },
+    {
+      "en": "This is a little large.",
+      "ja": "これは少し大きいです。"
+    },
+    {
+      "en": "This is a little small.",
+      "ja": "これは少し小さいです。"
+    },
+    {
+      "en": "Would you like a larger size?",
+      "ja": "もう少し大きいサイズがいいですか？"
+    },
+    {
+      "en": "Would you like a smaller size?",
+      "ja": "もう少し小さいサイズがいいですか？"
+    },
+    {
+      "en": "Would you like to try another size?",
+      "ja": "他のサイズを試してみますか？"
+    },
+    {
+      "en": "How about this one?",
+      "ja": "こちらはいかがでしょうか？"
+    },
+    {
+      "en": "Would you like to try it on?",
+      "ja": "ご試着なさいますか？"
+    }
+  ],
+  "accessories": [
+    {
+      "en": "Next, let’s coordinate the accessories.",
+      "ja": "次に小物をコーディネイトします。"
+    },
+    {
+      "en": "How about this combination?",
+      "ja": "この組み合わせはどうですか？"
+    },
+    {
+      "en": "Is it good?",
+      "ja": "これでよろしいですか？"
+    },
+    {
+      "en": "If you want to change something, please tell me which item and what color.",
+      "ja": "チェンジしたいものがありましたら、どれを何色にしたいのかお知らせください。"
+    },
+    {
+      "en": "Are you happy with this look?",
+      "ja": "このコーディネイトでよろしいですか？"
+    }
+  ],
+  "hairstyle": [
+    {
+      "en": "Would you like your hair styled in an updo?",
+      "ja": "ヘアスタイルはアップスタイルにしたいですか？"
+    },
+    {
+      "en": "What kind of style would you like?",
+      "ja": "どんな髪型にしますか？"
+    },
+    {
+      "en": "How do you like this? Is this good?",
+      "ja": "こんな感じでどうですか？いいかな？"
+    },
+    {
+      "en": "That looks great on you!",
+      "ja": "とてもお似合いです。"
+    },
+    {
+      "en": "Blue suits you.",
+      "ja": "青が似合うね。"
+    }
+  ],
+  "dressing": [
+    {
+      "en": "Then I will start dressing you.",
+      "ja": "では、着付けを始めます。"
+    },
+    {
+      "en": "This way, please.",
+      "ja": "こちらへどうぞ！"
+    },
+    {
+      "en": "The next person, please wait a moment.",
+      "ja": "次の方は少々お待ちください。"
+    },
+    {
+      "en": "Could you wait here for a moment, please?",
+      "ja": "少々こちらでお待ちいただけますか。"
+    },
+    {
+      "en": "Can you wear tabi socks?",
+      "ja": "足袋をはいていただけますか？"
+    },
+    {
+      "en": "Please change into this over your underwear.",
+      "ja": "洋服を全部脱いで、下着の上からこれを着てください。"
+    },
+    {
+      "en": "Please try on the zori sandals to check the size.",
+      "ja": "草履を履いてみてサイズを確認してください。"
+    }
+  ],
+  "before_going_out": [
+    {
+      "en": "Would you like to use the restroom?",
+      "ja": "お手洗いはいかがですか？"
+    },
+    {
+      "en": "Do you have a map of this area?",
+      "ja": "この辺りの地図はお持ちですか？"
+    },
+    {
+      "en": "If you need any assistance during your outing, please text me.",
+      "ja": "お出かけ中、困ったことがありましたら、ショートメールでお知らせください。"
+    },
+    {
+      "en": "If the weather is rainy, please choose a kimono from this list.",
+      "ja": "天気が雨の場合はこの中から着物をお選びください。"
+    },
+    {
+      "en": "We will take care of your baggage except for valuables.",
+      "ja": "貴重品以外のお荷物はお預かりします。"
+    },
+    {
+      "en": "When are you planning to come back?",
+      "ja": "何時頃にお戻りか教えていただけますか"
+    },
+    {
+      "en": "Where are you going after this?",
+      "ja": "このあとはどちらへ行かれますか？"
+    },
+    {
+      "en": "Have a good time!",
+      "ja": "いってらっしゃいませ。"
+    }
+  ],
+  "returning": [
+    {
+      "en": "Welcome back.",
+      "ja": "お帰りなさい"
+    },
+    {
+      "en": "Did you have a good time?",
+      "ja": "楽しい時間を過ごされましたか？"
+    },
+    {
+      "en": "That's good.",
+      "ja": "それはよかったです。"
+    },
+    {
+      "en": "I’m glad you had fun.",
+      "ja": "楽しんでもらえて嬉しいです。"
+    },
+    {
+      "en": "Please come this way so I can help you change.",
+      "ja": "着替えさせるので、こちらへどうぞ。"
+    },
+    {
+      "en": "Do you have everything?",
+      "ja": "お忘れ物はないですか？"
+    },
+    {
+      "en": "Please ensure you have all your belongings before you leave.",
+      "ja": "お忘れ物がないようご確認下さい。"
+    },
+    {
+      "en": "Is this yours?",
+      "ja": "こちらはお客様のですか？"
+    }
+  ],
+  "payment": [
+    {
+      "en": "Thank you very much.",
+      "ja": "ありがとうございました。"
+    },
+    {
+      "en": "Please come again.",
+      "ja": "またのお越しをお待ちしております。"
+    },
+    {
+      "en": "Here is your total.",
+      "ja": "こちらがあなたの合計です。"
+    },
+    {
+      "en": "Your total is 〇〇 yen.",
+      "ja": "お会計は〇〇円になります。"
+    },
+    {
+      "en": "How would you like to pay?",
+      "ja": "お支払い方法はいかがいたしますか？"
+    },
+    {
+      "en": "Would you like to pay in cash or by credit card?",
+      "ja": "お支払方法は現金ですか？ カードですか？"
+    },
+    {
+      "en": "Would you like to pay together or separately?",
+      "ja": "お会計はご一緒ですか、別々ですか。"
+    },
+    {
+      "en": "Here’s your change.",
+      "ja": "お釣りです。"
+    },
+    {
+      "en": "Would you like a receipt?",
+      "ja": "領収書は必要ですか？"
+    },
+    {
+      "en": "Please insert your card here.",
+      "ja": "ここにカードを入れてください。"
+    },
+    {
+      "en": "Please enter your PIN.",
+      "ja": "暗証番号の入力をお願いします"
+    },
+    {
+      "en": "Press enter, please.",
+      "ja": "エンターキーを押してください。"
+    }
+  ]
+}

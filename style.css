@@ -9,8 +9,6 @@ body {
   height: 100vh;
 }
 
-.menu {}
-
 .menu-inner {
   display: flex;
   gap: 10px;
@@ -32,13 +30,13 @@ body {
   transform: scale(1.05);
 }
 
-#list {
+.list {
   text-align: center;
   /* width: 1000px; */
   margin: 0 auto;
 }
 
-#list .phrase {
+.list .phrase {
   display: inline-block;
   background-color: rgb(243, 248, 255);
   font-size: 20px;
@@ -51,30 +49,30 @@ body {
   transition: transform 0.2s ease-out;
 }
 
-#list div:hover {
+.list div:hover {
   transform: scale(1.02);
 }
 
-#display-area {
+.display-area {
   margin-top: 10px;
   background-color: #ffffff;
   text-align: center;
   padding: 30px;
 }
 
-#display-area .en {
+.display-area .en {
   line-height: normal;
   font-size: 5rem;
   font-weight: bold;
 }
 
-#display-area .ja {
+.display-area .ja {
   font-size: 2rem;
   color: #666;
   padding: 50px;
 }
 
-#replay {
+.replay {
   display: inline-block;
   color: #383d6c;
   cursor: pointer;
@@ -84,7 +82,7 @@ body {
   transition: all 0.3s ease;
 }
 
-#replay:hover {
+.replay:hover {
   color: white;
   background-color: #429cf7;
   transition: all 0.2s ease;
